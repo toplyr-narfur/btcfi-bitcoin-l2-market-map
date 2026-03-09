@@ -57,6 +57,3 @@ If you want a deeper version of this map focused on investable traction, integra
 
 ## Public URL
 https://toplyr-narfur.github.io/btcfi-bitcoin-l2-market-map/
-
-## Next step
-Track replies, clicks, or inbound requests as the first demand signal.
