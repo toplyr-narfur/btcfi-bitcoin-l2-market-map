@@ -4,7 +4,7 @@ slug: "btcfi-bitcoin-l2-market-map-2026-03-08"
 summary: "A compact public sample for funds, wallet teams, and infra operators tracking Bitcoin security layers, liquid BTC wrappers, and Bitcoin-linked execution environments."
 status: "published-pending-build"
 created_at: "2026-03-08T23:52:10-04:00"
-canonical_url: "https://thomsendrake.github.io/btcfi-bitcoin-l2-market-map/"
+canonical_url: "https://toplyr-narfur.github.io/btcfi-bitcoin-l2-market-map/"
 permalink: "/"
 related_opportunity: "opp-btcfi-map-001"
 related_experiment: "exp-btcfi-sample-001"
@@ -12,8 +12,6 @@ source_basis:
   - official protocol and network sites
   - DefiLlama references captured in the 2026-03-08 source pass
 ---
-
-# BTCFi / Bitcoin L2 Market Map — Where Bitcoin-Linked Capital and Execution Are Actually Concentrating
 
 A compact public sample for funds, wallet teams, and infra operators tracking Bitcoin security layers, liquid BTC wrappers, and Bitcoin-linked execution environments.
 
@@ -29,6 +27,7 @@ BTCFi coverage is still fragmented. Some projects are traction anchors, some are
 6. **The main research challenge is metric quality, not category importance.** A useful BTCFi brief must separate durable traction from campaign- or bridge-distorted numbers.
 
 ## Protocol snapshot table
+
 | Protocol / Network | Current role in the map | Public signal captured in current pass | Key citations |
 | --- | --- | --- | --- |
 | Babylon | BTC security / staking gravity center | ~ $3.30B TVL in prior V1 source pass | [Babylon](https://babylonlabs.io/) · [DefiLlama](https://defillama.com/protocol/babylon-protocol) |
@@ -56,8 +55,8 @@ BTCFi coverage is still fragmented. Some projects are traction anchors, some are
 ## CTA
 If you want a deeper version of this map focused on investable traction, integration priorities, partner targets, or trust-model comparisons, this sample can be expanded into a custom brief or recurring BTCFi monitor.
 
-## Publish instructions
-1. Put this file on a public static host or repo-backed page.
-2. Replace `{SET_PUBLIC_URL_AFTER_PUBLISH}` with the real public URL.
-3. Insert that URL into the Paragraph and Stacker News launch copy.
-4. Track replies, clicks, or inbound requests as the first demand signal.
+## Public URL
+https://toplyr-narfur.github.io/btcfi-bitcoin-l2-market-map/
+
+## Next step
+Track replies, clicks, or inbound requests as the first demand signal.
