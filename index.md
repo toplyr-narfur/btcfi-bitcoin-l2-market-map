@@ -19,6 +19,7 @@ BTCFi is growing fast, but the landscape is still noisy. Some projects are clear
 4. **The main challenge is metric quality, not category importance.** A useful BTCFi brief should separate durable traction from noisier headline numbers.
 
 ## Protocol snapshot
+
 | Protocol / Network | Current role | Public signal | Key citations |
 | --- | --- | --- | --- |
 | Babylon | BTC security / staking gravity center | Strong public positioning around Bitcoin staking and Bitcoin-secured networks | [Babylon](https://babylonlabs.io/) · [DefiLlama](https://defillama.com/protocol/babylon-protocol) |
