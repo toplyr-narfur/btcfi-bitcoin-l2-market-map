@@ -20,16 +20,22 @@ BTCFi is growing fast, but the landscape is still noisy. Some projects are clear
 
 ## Protocol snapshot
 
-| Protocol / Network | Current role | Public signal | Key citations |
-| --- | --- | --- | --- |
-| Babylon | BTC security / staking gravity center | Strong public positioning around Bitcoin staking and Bitcoin-secured networks | [Babylon](https://babylonlabs.io/) · [DefiLlama](https://defillama.com/protocol/babylon-protocol) |
-| Lombard | Liquid / restaked BTC capital layer | Strong positioning around bringing Bitcoin capital markets onchain | [Lombard](https://www.lombard.finance/) · [DefiLlama](https://defillama.com/protocol/lombard) |
-| Stacks | Bitcoin app layer / smart-contract environment | Clear smart-contract and application-layer positioning | [Stacks](https://www.stacks.co/) · [DefiLlama](https://defillama.com/chain/Stacks) |
-| Rootstock | EVM-compatible Bitcoin execution layer | Established Bitcoin smart-contract platform framing | [Rootstock](https://rootstock.io/) · [DefiLlama](https://defillama.com/chain/Rootstock) |
-| BOB | BTCFi-oriented execution venue | Bitcoin-focused execution and ecosystem positioning | [BOB](https://www.gobob.xyz/) · [DefiLlama](https://defillama.com/chain/BOB) |
-| Liquid | Bitcoin capital-markets / settlement layer | More relevant as infrastructure and settlement than as a simple DeFi leaderboard entry | [Liquid Network](https://liquid.net/) |
-| Merlin | Newer Bitcoin ecosystem chain | Emerging chain with visible but earlier-stage traction | [Merlin Chain](https://merlinchain.io/) · [DefiLlama](https://defillama.com/chain/Merlin) |
-| Botanix | Early Bitcoin execution environment | Early execution-layer project worth monitoring | [Botanix](https://botanixlabs.com/) · [DefiLlama](https://defillama.com/chain/Botanix) |
+|| Protocol / Network | Current role | Trust Model | Custody | Public signal | Key citations ||
+|| --- | --- | --- | --- | --- | --- |
+|| Babylon | BTC security / staking gravity center | **Non-custodial** | Self-custody | Strong public positioning around Bitcoin staking and Bitcoin-secured networks | [Babylon](https://babylonlabs.io/) · [DefiLlama](https://defillama.com/protocol/babylon-protocol) |
+|| Lombard | Liquid / restaked BTC capital layer | **Custodial bridge** | Lombard multisig | Strong positioning around bringing Bitcoin capital markets onchain | [Lombard](https://www.lombard.finance/) · [DefiLlama](https://defillama.com/protocol/lombard) |
+|| Stacks | Bitcoin app layer / smart-contract environment | **Non-custodial** | Self-custody (STX) | Clear smart-contract and application-layer positioning | [Stacks](https://www.stacks.co/) · [DefiLlama](https://defillama.com/chain/Stacks) |
+|| Rootstock | EVM-compatible Bitcoin execution layer | **Federated peg** | Federation multisig | Established Bitcoin smart-contract platform framing | [Rootstock](https://rootstock.io/) · [DefiLlama](https://defillama.com/chain/Rootstock) |
+|| BOB | BTCFi-oriented execution venue | **Optimistic bridge** | Bridged (Gateway) | Bitcoin-focused execution and ecosystem positioning | [BOB](https://www.gobob.xyz/) · [DefiLlama](https://defillama.com/chain/BOB) |
+|| Liquid | Bitcoin capital-markets / settlement layer | **Federated sidechain** | Federation multisig (15-of-15) | More relevant as infrastructure and settlement than as a simple DeFi leaderboard entry | [Liquid Network](https://liquid.net/) |
+|| Merlin | Newer Bitcoin ecosystem chain | **Hybrid bridge** | Bridged (CZ custody) | Emerging chain with visible but earlier-stage traction | [Merlin Chain](https://merlinchain.io/) · [DefiLlama](https://defillama.com/chain/Merlin) |
+|| Botanix | Early Bitcoin execution environment | **Polygon CDK bridge** | Bridged (Spider) | Early execution-layer project worth monitoring | [Botanix](https://botanixlabs.com/) · [DefiLlama](https://defillama.com/chain/Botanix) |
+
+### Trust model key
+- **Non-custodial**: User controls keys at all times; BTC never leaves user's control
+- **Federated peg/sidechain**: Trust distributed across a federation of signers
+- **Custodial bridge**: Single entity or consortium controls deposited BTC
+- **Optimistic/Hybrid bridge**: Smart contract + operator risk; fraud proofs or ZK validation
 
 ## What this means for buyers
 ### Funds / research desks
